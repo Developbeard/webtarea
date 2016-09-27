@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+* {margin:0px; padding:0px;}
+
+body{
+	background-color:#FFF;
+}
+
+#contenedor{
+	font-family:Verdana, Geneva, sans-serif;
+	width:728px;
+	height:890px; 
+	margin:auto;
+	color:#000;
+}
+
+header{
+	background-image:url(images/logo.png);
+	background-repeat:no-repeat;
+	height:60px;
+	padding-top:10px;
+}
+
+nav{
+	float:right;
+	padding-top:20px;
+}
+
+nav ul{
+	list-style:none;
+	color:#ccc;
+	font-size:14px;
+	
+}
+
+nav li {
+	display:inline-table;
+	padding-right:15px;
+	padding-left:5px;
+	
+}
+
+
+section{
+	background-image:url(images/imagenCentral.jpg);
+	background-repeat:no-repeat;
+	height:340px;
+	padding-top:280px;
+}
+
+article{
+	height:72px;
+	padding-top:10px;
+}
+
+ h1{
+	font-size:17px;
+	text-align: center;
+	margin:10px;
+}
+
+.Bloque1{
+	background-image:url(images/modulo1.jpg);
+	background-repeat:no-repeat;
+	text-align:center; 
+	width:230px; height:160px;
+	padding-top:150px; margin-bottom:10px; margin-right:20px;
+	float:left;
+}
+.Bloque2{
+	background-image:url(images/modulo2.jpg); 
+	background-repeat:no-repeat;
+	text-align:center; 
+	width:235px; height:160px;
+    padding-top:150px; margin-bottom:10px; margin-right:20px;
+	float:left;
+}
+
+
+.Bloque3{
+	background-image:url(images/modulo3.jpg);
+	background-repeat:no-repeat;
+	text-align:center; 
+	width:223px; height:150px; padding-top:150px; 
+	float:left;
+}
+
+footer{
+	font-size:10px;
+	clear:both; 
+	background:#69F;
+	padding-top:20px; text-align: right;;
+}
