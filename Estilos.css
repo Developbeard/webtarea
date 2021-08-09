@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+* {margin:0px; padding:0px;}
+
+body{
+	background-color:#FFF;
+}
+
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+#contenedor{
+	font-family:Verdana, Geneva, sans-serif;
+	max-width:728px;
+	height:890px; 
+	margin:auto;
+	color:#000;
+}
+
+header{
+	background-image:url(images/logo.png);
+	background-repeat:no-repeat;
+	height:60px;
+	padding-top:10px;
+}
+
+#menuDrop{
+	margin-top:10%;
+}
+
+nav{
+	float:right;
+	padding-top:20px;
+}
+
+nav ul{
+	list-style:none;
+	color:#ccc;
+	font-size:14px;
+	
+}
+
+nav li {
+	display:inline-table;
+	padding-right:15px;
+	padding-left:5px;
+	
+}
+
+
+section{
+	background-image:url(images/imagenCentral.jpg);
+	background-repeat:no-repeat;
+	height:340px;
+	padding-top:280px;
+}
+
+article{
+	height:72px;
+	padding-top:10px;
+}
+
+ h1{
+	font-size:17px;
+	text-align: center;
+	margin:10px;
+}
+
+.Bloque1{
+	text-align:center; 
+	width:230px; height:auto;
+	padding-top:20px; margin-bottom:10px; margin-right:20px;
+	float:left;
+}
+.Bloque2{
+	text-align:center; 
+	width:235px; height:auto;
+    padding-top:20px; margin-bottom:10px; margin-right:20px;
+	float:left;
+}
+
+
+.Bloque3{
+	text-align:center; 
+	width:223px; height:auto; padding-top:20px; 
+	float:left;
+}
+
+footer{
+	font-size:10px;
+	clear:both; 
+	background:#69F;
+	padding-top:20px; text-align: right;;
+}
+
+@media (max-width: 481px) {
+	header{
+		background-size:50%;
+		background-position:center 10px;
+		height:auto;
+		padding-bottom:2%;
+		text-align: center;
+	}
+
+	nav{
+		float:none;
+		padding-top:2%;
+		text-align:center
+	}
+
+	nav ul{
+		list-style:none;
+		color:#ccc;
+		font-size:14px;
+
+	}
+
+	nav li {
+		display:block;
+		padding-top:4px;
+
+	}
+
+	section{
+		height: auto;
+		text-align: center;
+		background-size: 100%;
+		padding-top:40%;
+	}
+	
+	.Bloque1, .Bloque2, .Bloque3{
+		display: inline-table;
+		float: none;
+		height:auto;
+		margin-bottom: 10%;
+	}
+	
+	footer{
+		font-size:10px;
+		clear:both; 
+		background:#69F;
+		padding-top:10px; text-align: center; padding-bottom:10px;
+	}
+	
+}
